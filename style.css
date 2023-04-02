@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #333;
+}
+
+header, footer {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 1em;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	z-index: 1;
+	text-align: center;
+}
+
+header h1, footer p {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+footer{
+	top: 92%;
+}
+
+.main {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 1em;
+	padding-top: 150px;
+	margin-bottom: 60px; /* Change this value to match the height of your footer */
+}
+
+.main p{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
