@@ -11,7 +11,7 @@ body {
 	color: #333;
 }
 
-header, footer {
+header{
 	position: fixed;
 	left: 0;
 	width: 100%;
@@ -22,14 +22,10 @@ header, footer {
 	text-align: center;
 }
 
-header h1, footer p {
+header h1 {
 	font-size: 1.5em;
 	font-weight: bold;
 	margin-bottom: 0.5em;
-}
-
-footer{
-	top: 92%;
 }
 
 .main {
